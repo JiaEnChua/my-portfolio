@@ -5,7 +5,6 @@ function Header() {
   return (
     <div className="header">
       <ul className="header__list">
-        <li className="header__logo"></li>
         <li>About</li>
         <li>Experience</li>
         <li>Project</li>

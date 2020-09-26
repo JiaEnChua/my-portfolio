@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.about__container {
+  height: 100%;
+  margin-top: 10vh;
+}
+.about__container h1 {
+  margin-top: 1vh;
+}
+.about__container h2 {
+  margin-top: 1vh;
+  color: lightgray;
+}
+.about__container p {
+  margin-top: 1vh;
+  width: 80%;
+}
+.about__containerContact {
+  margin-top: 2vh;
+  width: fit-content;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(80, 233, 80);
+  border: 1px solid rgb(80, 233, 80);
+}
