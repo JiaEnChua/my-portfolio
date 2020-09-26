@@ -1,0 +1,22 @@
+.header__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 10vh;
+  border-bottom: 1px solid lightgray;
+}
+
+.header__logo {
+  flex: 0.7;
+}
+
+.header__list > li {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.header__list > li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
