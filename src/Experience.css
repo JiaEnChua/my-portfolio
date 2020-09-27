@@ -1,0 +1,19 @@
+.experience {
+  height: 60vh;
+  width: 60vw;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.experience__container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.experience__description {
+  margin-left: 20px;
+}
+
+.experience__descBullet {
+  margin-top: 10px;
+}

@@ -6,8 +6,13 @@ function About() {
     <div className="about">
       <div className="about__container">
         <p>Hi, my name is</p>
+        <br />
+
         <h1>JiaEn Chua</h1>
+        <br />
+
         <h2>I build things for the web</h2>
+        <br />
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -19,6 +24,7 @@ function About() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
+        <br />
         <div className="about__containerContact">
           <a href="mailto:chuajiaen23@gmail.com">Get In Touch</a>
         </div>

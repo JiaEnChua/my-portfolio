@@ -1,0 +1,9 @@
+.aboutMe {
+  height: 60vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.aboutMe__container {
+  margin: auto;
+}

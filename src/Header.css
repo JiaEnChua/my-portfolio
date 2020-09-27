@@ -1,10 +1,13 @@
+.header {
+  border-bottom: 1px solid lightgray;
+}
+
 .header__list {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   height: 10vh;
   width: 30vw;
-  border-bottom: 1px solid lightgray;
   margin-left: auto;
 }
 
