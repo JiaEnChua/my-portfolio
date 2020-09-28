@@ -1,0 +1,8 @@
+.project {
+  margin-top: 20px;
+  display: flex;
+}
+
+.project__right {
+  margin-left: 20px;
+}

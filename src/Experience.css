@@ -2,7 +2,16 @@
   height: 60vh;
   width: 60vw;
   margin: 0 auto;
-  border: 1px solid blue;
+}
+
+.experience__verticalBar p {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.experience__verticalBar p:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 .experience__container {
