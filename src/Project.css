@@ -1,8 +1,59 @@
 .project {
-  margin-top: 20px;
   display: flex;
+  margin-bottom: 20vh;
+  justify-content: space-between;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.project__left > iframe {
+  width: 450px;
+  height: 300px;
 }
 
 .project__right {
-  margin-left: 20px;
+  flex: 0.9;
+}
+
+.project__rightTitle {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.project__rightDesc {
+  text-align: center;
+  background-color: lightgray;
+  border: none;
+  padding: 20px 50px;
+  margin: 20px auto;
+  color: white;
+  line-height: 25px;
+}
+
+.project__rightTechStack {
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.project__rightTechStack p {
+  margin-left: auto;
+}
+
+.left {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+.project__rightBottom {
+  width: 4vw;
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.project__rightBottom .MuiSvgIcon-root {
+  color: black;
 }

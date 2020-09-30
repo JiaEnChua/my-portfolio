@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import { experienceRef } from "./Header";
 
 function AboutMe() {
   return (
@@ -31,6 +32,7 @@ function AboutMe() {
           <li>FireBase</li>
           <li>MERN Stack</li>
         </ul>
+        <div ref={experienceRef}></div>
       </div>
     </div>
   );

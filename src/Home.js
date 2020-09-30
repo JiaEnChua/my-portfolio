@@ -1,10 +1,11 @@
 import React from "react";
-import "./About.css";
+import "./Home.css";
+import { aboutMeRef } from "./Header";
 
-function About() {
+function Home() {
   return (
-    <div className="about">
-      <div className="about__container">
+    <div className="home">
+      <div className="home__container">
         <p>Hi, my name is</p>
         <br />
 
@@ -25,12 +26,13 @@ function About() {
           including versions of Lorem Ipsum.
         </p>
         <br />
-        <div className="about__containerContact">
+        <div className="home__containerContact">
           <a href="mailto:chuajiaen23@gmail.com">Get In Touch</a>
         </div>
+        <div ref={aboutMeRef}></div>
       </div>
     </div>
   );
 }
 
-export default About;
+export default Home;

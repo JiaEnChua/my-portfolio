@@ -1,5 +1,11 @@
 .projects {
-  height: 60vh;
   width: 60vw;
   margin: 0 auto;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
 }

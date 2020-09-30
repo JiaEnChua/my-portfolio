@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./Header";
-import About from "./About";
+import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import Projects from "./Projects";
@@ -21,7 +21,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <About />
+        <Home />
         <div data-aos="fade-up" className="app__aboutMe">
           <AboutMe />
         </div>

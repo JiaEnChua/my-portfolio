@@ -1,4 +1,4 @@
-.about {
+.home {
   display: flex;
   flex-direction: column;
   height: 80vh;
@@ -6,21 +6,21 @@
   margin: 0 auto;
 }
 
-.about__container {
+.home__container {
   margin: auto;
 }
 
-.about__container h2 {
+.home__container h2 {
   color: lightgray;
 }
 
-.about__containerContact {
+.home__containerContact {
   width: fit-content;
   padding: 10px;
   border: 1px solid rgb(80, 233, 80);
 }
 
-.about__containerContact a {
+.home__containerContact a {
   text-decoration: none;
   color: rgb(80, 233, 80);
 }

@@ -4,23 +4,33 @@ import LaunchIcon from "@material-ui/icons/Launch";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { Link } from "react-router-dom";
 
-function AmazonClone({ youtubeLink, name, desc, githubLink, projLink }) {
+function AmazonClone({
+  youtubeLink,
+  name,
+  desc,
+  techStack,
+  githubLink,
+  projLink,
+  left_or_right,
+  even,
+}) {
   return (
-    <div className="project">
+    <div className={`project ${even}`}>
       <div className="project__left">
-        <iframe width="500" height="315" src={youtubeLink}></iframe>
+        <iframe src={youtubeLink} allowfullscreen="allowfullscreen"></iframe>
       </div>
       <div className="project__right">
-        <h3>{name}</h3>
-        <br />
-        <p>{desc}</p>
-        <br />
-        <Link to={githubLink}>
-          <GitHubIcon />
-        </Link>
-        <Link to={projLink}>
-          <LaunchIcon />
-        </Link>
+        <h3 className={`project__rightTitle ${left_or_right}`}>{name}</h3>
+        <p className="project__rightDesc">{desc}</p>
+        {techStack}
+        <div className={`project__rightBottom ${left_or_right}`}>
+          <Link to={githubLink}>
+            <GitHubIcon />
+          </Link>
+          <Link to={projLink}>
+            <LaunchIcon />
+          </Link>
+        </div>
       </div>
     </div>
   );
