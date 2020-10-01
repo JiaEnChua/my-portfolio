@@ -25,13 +25,12 @@
 .project__rightDesc {
   text-align: center;
   background-color: rgb(84, 84, 84);
-  border: none;
+  border-radius: 5px;
   padding: 20px 50px;
   margin: 20px auto;
   color: white;
   line-height: 25px;
   max-height: 30vh;
-
   overflow-y: auto;
 }
 

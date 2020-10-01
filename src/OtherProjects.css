@@ -1,0 +1,63 @@
+.otherProjects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.otherProjects h1 {
+  margin-bottom: 20px;
+}
+
+.otherProjects__container {
+  display: flex;
+}
+
+.otherProjects__section {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #303c55;
+  margin: 10px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.otherProjects__section:hover {
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.otherProjects__icons {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.otherProjects__section .MuiSvgIcon-root {
+  color: black;
+}
+
+.otherProjects__folderIcon .MuiSvgIcon-root {
+  color: #64ffda;
+  transform: scale(1.8);
+}
+
+.otherProjects__title {
+  margin: 10px 0;
+  color: white;
+}
+
+.otherProjects__desc {
+  margin: 0 20px;
+  color: white;
+}

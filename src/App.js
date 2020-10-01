@@ -5,6 +5,7 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import OtherProjects from "./OtherProjects";
 import Footer from "./Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -51,6 +52,15 @@ function App() {
             className="app__projects"
           >
             <Projects />
+          </div>
+        </Element>
+        <Element name="otherProjects">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="app__otherProjects"
+          >
+            <OtherProjects />
           </div>
         </Element>
         <Element name="footer">
