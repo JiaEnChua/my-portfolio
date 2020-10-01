@@ -9,7 +9,7 @@
 
 .header__list {
   list-style: none;
-  height: 10vh;
+  height: 100px;
   display: flex;
   width: fit-content;
   margin-left: auto;
@@ -19,7 +19,7 @@
   font-size: 20px;
   display: flex;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .header__list > li:hover {

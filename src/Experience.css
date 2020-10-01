@@ -1,7 +1,12 @@
 .experience {
-  height: 60vh;
   width: 60vw;
   margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.experience__container {
+  display: flex;
+  margin-top: 20px;
 }
 
 .experience__verticalBar p {
@@ -12,11 +17,6 @@
 .experience__verticalBar p:hover {
   background-color: lightgray;
   cursor: pointer;
-}
-
-.experience__container {
-  display: flex;
-  margin-top: 20px;
 }
 
 .experience__description {

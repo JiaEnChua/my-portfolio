@@ -1,13 +1,10 @@
 .home {
   display: flex;
   flex-direction: column;
-  height: 80vh;
   width: 60vw;
   margin: 0 auto;
-}
-
-.home__container {
-  margin: auto;
+  padding-bottom: 200px;
+  padding-top: 300px;
 }
 
 .home__container h2 {
