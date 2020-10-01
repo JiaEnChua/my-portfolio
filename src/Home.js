@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { aboutMeRef } from "./Header";
 
 function Home() {
   return (
@@ -29,7 +28,6 @@ function Home() {
         <div className="home__containerContact">
           <a href="mailto:chuajiaen23@gmail.com">Get In Touch</a>
         </div>
-        <div ref={aboutMeRef}></div>
       </div>
     </div>
   );

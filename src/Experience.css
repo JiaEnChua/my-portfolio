@@ -26,3 +26,8 @@
 .experience__descBullet {
   margin-top: 10px;
 }
+
+.experience__description img {
+  width: 250px;
+  height: 250px;
+}

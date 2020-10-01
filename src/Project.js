@@ -17,7 +17,7 @@ function AmazonClone({
   return (
     <div className={`project ${even}`}>
       <div className="project__left">
-        <iframe src={youtubeLink} allowfullscreen="allowfullscreen"></iframe>
+        <iframe src={youtubeLink} allowFullScreen="allowfullscreen"></iframe>
       </div>
       <div className="project__right">
         <h3 className={`project__rightTitle ${left_or_right}`}>{name}</h3>

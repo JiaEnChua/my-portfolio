@@ -4,6 +4,7 @@ import "./Experience.css";
 function Experience() {
   const cernerDesc = (
     <div className="experience__description">
+      <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cerner.png?raw=true" />
       <h3>Software Engineer</h3>
       <p>
         <small>April 2019 - Present</small>
@@ -30,6 +31,8 @@ function Experience() {
   const renderCam2 = () =>
     setDescBullet(
       <div className="experience__description">
+        <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cam2.jpeg?raw=true" />
+
         <h3>Software Engineer</h3>
         <p>
           <small>May 2018 - August 2018</small>
@@ -50,6 +53,8 @@ function Experience() {
   const renderVisual = () =>
     setDescBullet(
       <div className="experience__description">
+        <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/purdue_logo.jpg?raw=true" />
+
         <h3>Software Engineer</h3>
         <p>
           <small>January 2018 - May 2018</small>

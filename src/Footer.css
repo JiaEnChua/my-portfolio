@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  width: 60vw;
+}
+
+.footer__desc {
+  margin: 20px 0;
+}
+
+.footer__Contact {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid rgb(80, 233, 80);
+  border-radius: 5px;
+}
+
+.footer__Contact a {
+  text-decoration: none;
+  color: rgb(80, 233, 80);
+}
+
+.footer__credits {
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+
+.footer__credits a {
+  text-decoration: none;
+  color: black;
+}

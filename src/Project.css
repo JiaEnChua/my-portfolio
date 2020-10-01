@@ -24,12 +24,15 @@
 
 .project__rightDesc {
   text-align: center;
-  background-color: lightgray;
+  background-color: rgb(84, 84, 84);
   border: none;
   padding: 20px 50px;
   margin: 20px auto;
   color: white;
   line-height: 25px;
+  max-height: 30vh;
+
+  overflow-y: auto;
 }
 
 .project__rightTechStack {

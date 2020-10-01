@@ -1,14 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
-import { Link, Element } from "react-scroll";
-
-let aboutMeRef;
-let experienceRef;
+import { Link } from "react-scroll";
 
 function Header() {
-  aboutMeRef = useRef(null);
-  experienceRef = useRef(null);
-
   const [scrolled, setScrolled] = useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -28,26 +22,69 @@ function Header() {
   return (
     <div className="header">
       <ul className="header__list">
-        <li
-          onClick={() =>
-            aboutMeRef.current.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          About
+        <li>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
-        <li
-          onClick={() =>
-            experienceRef.current.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          Experience
+        <li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
-        <li>Project</li>
-        <li>Contact</li>
+        <li>
+          <Link
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Project
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="footer"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   );
 }
 
 export default Header;
-export { aboutMeRef, experienceRef };

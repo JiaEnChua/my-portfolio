@@ -5,9 +5,11 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Footer from "./Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Element } from "react-scroll";
 
 function App() {
   useEffect(() => {
@@ -21,19 +23,45 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Home />
-        <div data-aos="fade-up" className="app__aboutMe">
-          <AboutMe />
-        </div>
-        <div data-aos="fade-up" className="app__experience">
-          <Experience />
-        </div>
-        <div data-aos="fade-up" className="app__projects">
-          <Projects />
-        </div>
-
-        {/* 
-      <Footer /> */}
+        <Element name="home">
+          <Home />
+        </Element>
+        <Element name="about">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="app__aboutMe"
+          >
+            <AboutMe />
+          </div>
+        </Element>
+        <Element name="experience">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="app__experience"
+          >
+            <Experience />
+          </div>
+        </Element>
+        <Element name="project">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="app__projects"
+          >
+            <Projects />
+          </div>
+        </Element>
+        <Element name="footer">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="app__projects"
+          >
+            <Footer />
+          </div>
+        </Element>
       </div>
     </Router>
   );

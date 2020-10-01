@@ -1,14 +1,17 @@
 .header {
   border-bottom: 1px solid lightgray;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  z-index: 99;
 }
 
 .header__list {
-  display: flex;
-  justify-content: space-evenly;
   list-style: none;
   height: 10vh;
-  width: 30vw;
+  display: flex;
+  width: fit-content;
   margin-left: auto;
 }
 
@@ -16,6 +19,7 @@
   font-size: 20px;
   display: flex;
   align-items: center;
+  margin: 0 10px;
 }
 
 .header__list > li:hover {
