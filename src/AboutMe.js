@@ -8,19 +8,18 @@ function AboutMe() {
         <h1>About Me</h1>
         <br />
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          I always have a passion for building things and it was until my first
+          CS class in Purdue University that introduces me to the world of
+          programming. During my time in Purdue, I took part in different
+          research opportunities and summer internship to learn more about
+          software development.
         </p>
         <br />
         <p>
-          It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was
-          popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
+          I am highly motivated to learn and adapt to fast-changing technologies
+          and environments. Shortly after graduation, I join Cerner Corporation
+          where I work on a wide spectrum of challenging projects ranging from
+          front end design to 3rd party integration.
         </p>
         <br />
         <p>Here are a few technologies I've been working with recently.</p>

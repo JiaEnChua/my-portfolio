@@ -30,7 +30,7 @@ function App() {
         <Element name="about">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="app__aboutMe"
           >
             <AboutMe />
@@ -39,7 +39,7 @@ function App() {
         <Element name="experience">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="app__experience"
           >
             <Experience />
@@ -48,7 +48,7 @@ function App() {
         <Element name="project">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="app__projects"
           >
             <Projects />
@@ -57,7 +57,7 @@ function App() {
         <Element name="otherProjects">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="app__otherProjects"
           >
             <OtherProjects />
@@ -66,7 +66,7 @@ function App() {
         <Element name="footer">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="app__projects"
           >
             <Footer />

@@ -3,3 +3,7 @@
   margin: 0 auto;
   padding-bottom: 200px;
 }
+
+.aboutMe__container ul {
+  margin-top: 10px;
+}
