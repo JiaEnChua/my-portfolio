@@ -5,10 +5,20 @@
   margin: 0 auto;
   padding-bottom: 200px;
   padding-top: 300px;
+  align-items: center;
+}
+
+.home__containerDesc {
+  width: 50%;
+}
+
+.home__container h1 {
+  font-size: 6em;
 }
 
 .home__container h2 {
   color: lightgray;
+  font-size: 3em;
 }
 
 .home__containerContact {

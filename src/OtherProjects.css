@@ -1,7 +1,7 @@
 .otherProjects {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 200px;
@@ -13,4 +13,26 @@
 
 .otherProjects__container {
   display: flex;
+  flex-direction: column;
+}
+
+.otherProjects__containerRow {
+  display: flex;
+}
+
+.otherProjects__containerBox {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  opacity: 0.7;
+}
+
+.otherProjects__containerBox:hover {
+  cursor: pointer;
+  top: -10px;
+  opacity: 1;
+}
+
+.otherProjects__containerBox a {
+  text-decoration: none;
 }

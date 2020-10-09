@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Experience.css";
 
 function Experience() {
   const cernerDesc = (
     <div className="experience__description">
-      <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cerner.png?raw=true" />
+      <img
+        src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cerner.png?raw=true"
+        alt="cerner.png"
+      />
       <h3>Software Engineer</h3>
       <p>
         <small>April 2019 - Present</small>
@@ -26,13 +29,27 @@ function Experience() {
   );
 
   const [descBullet, setDescBullet] = useState(cernerDesc);
-  const renderCerner = () => setDescBullet(cernerDesc);
+  const [cerner, setCerner] = useState("");
+  const [cam2, setCam2] = useState("");
+  const [vdgPurdue, setVdgPurdue] = useState("");
+  const resetVertBar = () => {
+    setCerner("");
+    setCam2("");
+    setVdgPurdue("");
+  };
+  const renderCerner = () => {
+    setDescBullet(cernerDesc);
+    resetVertBar();
+    setCerner("selected_comp");
+  };
 
-  const renderCam2 = () =>
+  const renderCam2 = () => {
     setDescBullet(
       <div className="experience__description">
-        <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cam2.jpeg?raw=true" />
-
+        <img
+          src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/cam2.jpeg?raw=true"
+          alt="cam2.png"
+        />
         <h3>Software Engineer</h3>
         <p>
           <small>May 2018 - August 2018</small>
@@ -49,12 +66,17 @@ function Experience() {
         </ul>
       </div>
     );
+    resetVertBar();
+    setCam2("selected_comp");
+  };
 
-  const renderVisual = () =>
+  const renderVisual = () => {
     setDescBullet(
       <div className="experience__description">
-        <img src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/purdue_logo.jpg?raw=true" />
-
+        <img
+          src="https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/purdue_logo.jpg?raw=true"
+          alt="vdgPurdue.png"
+        />
         <h3>Software Engineer</h3>
         <p>
           <small>January 2018 - May 2018</small>
@@ -71,15 +93,30 @@ function Experience() {
         </ul>
       </div>
     );
+    resetVertBar();
+    setVdgPurdue("selected_comp");
+  };
 
+  useEffect(() => {
+    renderCerner();
+    return () => {
+      // cleanup
+    };
+  }, []);
   return (
     <div className="experience">
       <h1>Where I've Worked</h1>
       <div className="experience__container">
         <div className="experience__verticalBar">
-          <p onClick={renderCerner}>Cerner</p>
-          <p onClick={renderCam2}>CAM2 Research Group</p>
-          <p onClick={renderVisual}>Visual Data Analytics Group Purdue</p>
+          <p className={`${cerner}`} onClick={renderCerner}>
+            Cerner
+          </p>
+          <p className={`${cam2}`} onClick={renderCam2}>
+            CAM2 Research Group
+          </p>
+          <p className={`${vdgPurdue}`} onClick={renderVisual}>
+            Visual Data Analytics Group Purdue
+          </p>
         </div>
         {descBullet}
       </div>

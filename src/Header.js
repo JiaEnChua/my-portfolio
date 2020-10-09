@@ -15,7 +15,7 @@ function Header() {
             offset={-50}
             duration={500}
           >
-            Home
+            <p>Home</p>
           </Link>
         </li>
         <li>
@@ -27,7 +27,7 @@ function Header() {
             offset={-100}
             duration={500}
           >
-            About
+            <p>About</p>
           </Link>
         </li>
         <li>
@@ -39,7 +39,7 @@ function Header() {
             offset={-100}
             duration={500}
           >
-            Experience
+            <p>Experience</p>
           </Link>
         </li>
         <li>
@@ -51,7 +51,7 @@ function Header() {
             offset={-100}
             duration={500}
           >
-            Project
+            <p>Project</p>
           </Link>
         </li>
         <li>
@@ -63,7 +63,7 @@ function Header() {
             offset={-100}
             duration={500}
           >
-            Contact
+            <p>Contact</p>
           </Link>
         </li>
       </ul>

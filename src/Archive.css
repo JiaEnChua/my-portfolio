@@ -1,4 +1,4 @@
-.otherProjects__section {
+.archive__container {
   width: 300px;
   height: 300px;
   align-items: center;
@@ -10,14 +10,7 @@
   opacity: 0.9;
 }
 
-.otherProjects__section:hover {
-  cursor: pointer;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  opacity: 1;
-}
-
-.otherProjects__icons {
+.archive__containerIcons {
   display: flex;
   width: 80%;
   height: 50px;
@@ -26,21 +19,22 @@
   margin: 10px 0;
 }
 
-.otherProjects__section .MuiSvgIcon-root {
+.archive__containerIcons .MuiSvgIcon-root {
   color: black;
 }
 
-.otherProjects__folderIcon .MuiSvgIcon-root {
+.archive__containerIconsFolderIcon .MuiSvgIcon-root {
   color: #64ffda;
   transform: scale(1.8);
 }
 
-.otherProjects__title {
-  margin: 10px 0;
+.archive__title {
+  margin: 10px 20px;
   color: white;
 }
 
-.otherProjects__desc {
+.archive__desc {
   margin: 0 20px;
   color: white;
+  overflow: auto;
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
@@ -9,7 +9,7 @@ import OtherProjects from "./OtherProjects";
 import Footer from "./Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Element } from "react-scroll";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Header></Header>
         <Element name="home">
           <Home />
         </Element>

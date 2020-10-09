@@ -11,7 +11,7 @@ function Projects() {
           youtubeLink={"https://www.youtube.com/embed/YKlenuIY43s"}
           name={"Amazon Clone"}
           desc={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+            "Generate Stripe API Client secret everytime the cart item detail changes by utilizing Firebase Cloud function and express server. Achieved real time transaction system with billing records stored in Stripe. Order details per user is also stored in Firestore and displayed in order page descendingly based on Order date."
           }
           techStack={
             <div className={`project__rightTechStack right`}>
@@ -25,10 +25,10 @@ function Projects() {
           projLink={"https://clone-b869b.web.app/"}
         />
         <Project
-          youtubeLink={"https://www.youtube.com/embed/YKlenuIY43s"}
+          youtubeLink={"https://www.youtube.com/embed/Oao8jitcgts"}
           name={"WhatsApp Clone"}
           desc={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "WhatsApp web app allows multiple users to join and create chatroom. Only chatroom creator can delete chatroom. Authentication feature built with Firebase Google Auth. Chatroom and message data stored in Firestore and rendered out on snapshot."
           }
           techStack={
             <div className={`project__rightTechStack left`}>
@@ -38,16 +38,16 @@ function Projects() {
               <p className="left">FireBase Hosting</p>
             </div>
           }
-          githubLink={"https://github.com/JiaEnChua/amazon-clone"}
-          projLink={"https://clone-b869b.web.app/"}
+          githubLink={"https://github.com/JiaEnChua/whatsapp-clone-web"}
+          projLink={"https://whatsapp-clone-25743.web.app/"}
           left_or_right={"left"}
           even={"even"}
         />
         <Project
-          youtubeLink={"https://www.youtube.com/embed/YKlenuIY43s"}
+          youtubeLink={"https://www.youtube.com/embed/J28DN2sKI5s"}
           name={"YelpCamp"}
           desc={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "Served as a platform for camping lovers to share their experiences and reviews about campsites all around the world. Features include: Account authentication Campgrounds show page Post and comment assiociate to user account Edit and delete personal's post/comment."
           }
           techStack={
             <div className={`project__rightTechStack`}>
@@ -57,8 +57,8 @@ function Projects() {
               <p>Heroku</p>
             </div>
           }
-          githubLink={"https://github.com/JiaEnChua/amazon-clone"}
-          projLink={"https://clone-b869b.web.app/"}
+          githubLink={"https://github.com/JiaEnChua/yelpCamp"}
+          projLink={"https://fierce-ravine-37991.herokuapp.com/"}
         />
       </div>
     </div>

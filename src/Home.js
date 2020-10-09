@@ -11,9 +11,9 @@ function Home() {
         <br />
         <h2>I love building things and solving real world problems.</h2>
         <br />
-        <p>
-          I'm a software engineer based in Kansas City, KS focusing on building
-          functional and perfomance websites and applications.
+        <p className="home__containerDesc">
+          I'm a software engineer based in Kansas City, KS specializing on
+          building functional and perfomance websites and applications.
         </p>
         <br />
         <div className="home__containerContact">

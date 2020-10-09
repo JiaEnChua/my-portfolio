@@ -4,6 +4,51 @@
   padding-bottom: 200px;
 }
 
-.aboutMe__container ul {
+.aboutMe__container {
   margin-top: 10px;
+  display: flex;
+}
+
+.aboutMe__containerLeft {
+  flex: 0.5;
+}
+
+.aboutMe__containerLeft ul {
+  margin-top: 10px;
+}
+
+.aboutMe__containerRight {
+  flex: 0.5;
+  padding-bottom: 100px;
+}
+
+.aboutMe__containerRightContainer {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.aboutMe__containerRightContainer img {
+  width: 300px;
+  filter: contrast(50%);
+  z-index: 1;
+  position: absolute;
+}
+
+.aboutMe__containerRightShadow {
+  border: 5px solid rgb(21, 45, 177);
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.aboutMe__containerRightContainer:hover img {
+  filter: contrast(100%);
+}
+
+.aboutMe__containerRightContainer:hover span {
+  margin-top: 10px;
+  margin-left: 10px;
 }

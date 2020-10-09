@@ -6,17 +6,17 @@ import FolderOpenIcon from "@material-ui/icons/FolderOpen";
 function Archive({ name, description }) {
   return (
     <div className="archive">
-      <div className="otherProjects__section">
-        <div className="otherProjects__icons">
-          <div className="otherProjects__folderIcon">
+      <div className="archive__container">
+        <div className="archive__containerIcons">
+          <div className="archive__containerIconsFolderIcon">
             <FolderOpenIcon />
           </div>
-          <div className="otherProjects__launchIcon">
+          <div className="archive__containerIconsLaunchIcon">
             <LaunchIcon />
           </div>
         </div>
-        <h3 className="otherProjects__title">{name}</h3>
-        <p className="otherProjects__desc">{description}</p>
+        <h3 className="archive__title">{name}</h3>
+        <p className="archive__desc">{description}</p>
       </div>
     </div>
   );
