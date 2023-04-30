@@ -35,7 +35,7 @@ function AboutMe() {
         <div className='aboutMe__containerRight'>
           <div className='aboutMe__containerRightContainer'>
             <img
-              src='https://media-exp1.licdn.com/dms/image/C5603AQEL7VA9j9t9xA/profile-displayphoto-shrink_200_200/0/1517023739025?e=1614816000&v=beta&t=rGyoX0-rcvpKz0hVnQWSQlOhJj9o__yZFsAFT0FfJiU'
+              src='https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/JiaEn_Chua.jpeg'
               alt='profile_pic.png'
             />
             <span className='aboutMe__containerRightShadow'></span>
