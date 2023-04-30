@@ -35,8 +35,8 @@ function AboutMe() {
         <div className='aboutMe__containerRight'>
           <div className='aboutMe__containerRightContainer'>
             <img
-              src='https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/JiaEn_Chua.jpeg'
-              alt='profile_pic.png'
+              src='https://github.com/JiaEnChua/JiaEnChua.github.io/blob/master/pic/JiaEn_Chua.jpeg?raw=true'
+              alt='profile_pic.jpeg'
             />
             <span className='aboutMe__containerRightShadow'></span>
           </div>
