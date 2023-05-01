@@ -1,7 +1,7 @@
 .experience {
   width: 60vw;
   margin: 0 auto;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .experience__container {
@@ -39,10 +39,18 @@
 .experience__description img {
   width: 250px;
   height: 250px;
+  border-radius: 20px;
 }
 
 .selected_comp {
   background-color: lightgray;
   border-left: 2px solid rgb(21, 45, 177) !important;
   color: rgb(21, 45, 177);
+}
+
+.experience__description--top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
