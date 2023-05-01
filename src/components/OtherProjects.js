@@ -68,12 +68,16 @@ function OtherProjects() {
           </div>
           <div className="otherProjects__containerBox">
             <div data-aos="fade-zoom-in" data-aos-delay="700">
-              <Archive />
+              <Archive 
+                name={'Coming soon...'}
+              />
             </div>
           </div>
           <div className="otherProjects__containerBox">
             <div data-aos="fade-zoom-in" data-aos-delay="800">
-              <Archive />
+              <Archive
+                name={'Coming soon...'}
+              />
             </div>
           </div>
         </div>
