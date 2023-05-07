@@ -1,15 +1,15 @@
-import React from "react";
-import "./Header.css";
-import { Link } from "react-scroll";
+import React from 'react';
+import { Link } from 'react-scroll';
+import './styles.scss';
 
-function Header() {
+function DesktopComponent() {
   return (
-    <div className="header">
-      <ul className="header__list">
+    <div className='header'>
+      <ul className='header__list'>
         <li>
           <Link
-            activeClass="active"
-            to="home"
+            activeClass='active'
+            to='home'
             spy={true}
             smooth={true}
             offset={-50}
@@ -20,8 +20,8 @@ function Header() {
         </li>
         <li>
           <Link
-            activeClass="active"
-            to="about"
+            activeClass='active'
+            to='about'
             spy={true}
             smooth={true}
             offset={-100}
@@ -32,8 +32,8 @@ function Header() {
         </li>
         <li>
           <Link
-            activeClass="active"
-            to="experience"
+            activeClass='active'
+            to='experience'
             spy={true}
             smooth={true}
             offset={-100}
@@ -44,8 +44,8 @@ function Header() {
         </li>
         <li>
           <Link
-            activeClass="active"
-            to="project"
+            activeClass='active'
+            to='project'
             spy={true}
             smooth={true}
             offset={-100}
@@ -56,8 +56,8 @@ function Header() {
         </li>
         <li>
           <Link
-            activeClass="active"
-            to="footer"
+            activeClass='active'
+            to='footer'
             spy={true}
             smooth={true}
             offset={-100}
@@ -71,4 +71,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default DesktopComponent;
