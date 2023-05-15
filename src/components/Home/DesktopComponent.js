@@ -1,4 +1,6 @@
 import React from 'react';
+import { AwesomeButton } from 'react-awesome-button';
+import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
 import './styles.scss';
 
 function DesktopComponent() {
@@ -12,12 +14,18 @@ function DesktopComponent() {
         <h2>I love building things and solving real world problems.</h2>
         <br />
         <p className='home__containerDesc'>
-          I'm a software engineer based in Kansas City, KS specializing on
-          building functional and perfomance websites and applications.
+          I'm a software engineer based in LA, specializing on building
+          functional and perfomance websites and applications.
         </p>
         <br />
         <div className='home__containerContact'>
-          <a href='mailto:chuajiaen23@gmail.com'>Get In Touch</a>
+          <AwesomeButton
+            type='secondary'
+            cssModule={AwesomeButtonStyles}
+            href='mailto:chuajiaen23@gmail.com'
+          >
+            Get In Touch
+          </AwesomeButton>
         </div>
       </div>
     </div>

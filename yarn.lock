@@ -1575,6 +1575,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.7.tgz#ccab5c8f7dc557a52ca3288c10075c9ccd37fff7"
   integrity sha512-Cr4OjIkipTtcXKjAsm8agyleBuDHvxzeBoa1v543lbv1YaIwQjESsVcmjiWiPEbC1FIeHOG/Op9kdCmAmiS3Kw==
 
+"@rcaferati/wac@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@rcaferati/wac/-/wac-1.0.0.tgz#7505671559d576dd8c1f7c9a3b0cfea1fa6cd554"
+  integrity sha512-7dVbzvcfL9o4UnrCaNeoIs7Ri9Ol+OMfpYYCJJV1dfm+5+pVM6DrvFjPzqifd2ACVABpXmwTQKy9KFxNm/7IdA==
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -9894,6 +9899,13 @@ react-app-polyfill@^0.2.2:
     promise "8.0.2"
     raf "3.4.1"
     whatwg-fetch "3.0.0"
+
+react-awesome-button@^7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/react-awesome-button/-/react-awesome-button-7.0.5.tgz#fbc4499c8327a40012f544d7e7ffe3c05bd184db"
+  integrity sha512-pNABRQsvnbd5rGL7mX9udWa0aPnXtP6hEL90/Cqjc/ERADpOMu3z6zix+AW/NOBp0NQoi9J+hhKoZS2dabs15g==
+  dependencies:
+    "@rcaferati/wac" "^1.0.0"
 
 react-dev-utils@^8.0.0:
   version "8.0.0"
