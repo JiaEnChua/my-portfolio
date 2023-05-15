@@ -15,9 +15,6 @@ import { Element } from 'react-scroll';
 function App() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
-    return () => {
-      // cleanup
-    };
   }, []);
 
   return (

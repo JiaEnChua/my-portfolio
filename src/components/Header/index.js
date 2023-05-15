@@ -4,7 +4,10 @@ import MobileComponent from './MobileComponent';
 import DesktopComponent from './DesktopComponent';
 
 const Header = () => {
-  return <div>{isMobile ? <MobileComponent /> : <DesktopComponent />}</div>;
+  if (isMobile) {
+    return <MobileComponent />;
+  }
+  return <DesktopComponent />;
 };
 
 export default Header;
