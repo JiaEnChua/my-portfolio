@@ -6,7 +6,7 @@ import map from 'lodash/map';
 import { Link } from 'react-scroll';
 import { Menu as MenuIcon } from '@mui/icons-material';
 
-import { PAGE_ITEMS } from '../Home/constants';
+import { PAGE_ITEMS } from '../constants';
 
 export default function MobileComponent() {
   const [anchorEl, setAnchorEl] = React.useState(null);
