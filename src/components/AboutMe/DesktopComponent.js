@@ -1,7 +1,7 @@
 import React from 'react';
-import './AboutMe.css';
+import './styles.scss';
 
-function AboutMe() {
+function DesktopComponent() {
   return (
     <div className='aboutMe'>
       <h1>About Me</h1>
@@ -46,4 +46,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default DesktopComponent;

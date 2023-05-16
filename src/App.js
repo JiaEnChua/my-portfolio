@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
@@ -11,6 +10,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Element } from 'react-scroll';
+import './App.css';
 
 function App() {
   useEffect(() => {
