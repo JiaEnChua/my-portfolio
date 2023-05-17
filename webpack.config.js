@@ -23,6 +23,11 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        exclude: [/node_modules\/(?!(swiper|dom7)\/).*/, /\.test\.js(x)?$/],
+        test: /\.js(x)?$/,
+        use: [{ loader: 'babel-loader' }],
+      },
     ],
   },
 };

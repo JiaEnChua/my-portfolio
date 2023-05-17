@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import map from 'lodash/map';
 
 import {
   CAM2_DESCRIPTION,
   CERNER_DESCRIPTION,
   VISUAL_DESCRIPTION,
-} from '../constants';
-import './Experience.css';
+} from '../utils';
+import './styles.scss';
 
-function Experience() {
+function DesktopComponent() {
   const descriptionTemplate = ({ imgLink, imgAlt, timeline, bulletPoints }) => (
     <div className='experience__description'>
       <div className='experience__description--top'>
@@ -17,14 +18,18 @@ function Experience() {
           <small>{timeline}</small>
         </p>
       </div>
-      <ul className='experience__descBullet'>{bulletPoints}</ul>
+      <ul className='experience__descBullet'>
+        {map(bulletPoints, (eachPoint) => (
+          <li>{eachPoint}</li>
+        ))}
+      </ul>
     </div>
   );
 
   const [descBullet, setDescBullet] = useState(
     descriptionTemplate(CERNER_DESCRIPTION)
   );
-  const [cerner, setCerner] = useState('');
+  const [cerner, setCerner] = useState('selected_comp');
   const [cam2, setCam2] = useState('');
   const [vdgPurdue, setVdgPurdue] = useState('');
   const resetVertBar = () => {
@@ -50,10 +55,6 @@ function Experience() {
     setVdgPurdue('selected_comp');
   };
 
-  useEffect(() => {
-    renderCerner();
-  }, []);
-
   return (
     <div className='experience'>
       <h1>Where I've Worked</h1>
@@ -75,4 +76,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default DesktopComponent;

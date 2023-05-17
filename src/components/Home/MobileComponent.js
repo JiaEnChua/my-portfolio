@@ -2,7 +2,7 @@ import React from 'react';
 import { AwesomeButton } from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
 
-import { HOME } from '../strings';
+import { HOME } from '../constants';
 import './styles.scss';
 
 function MobileComponent() {

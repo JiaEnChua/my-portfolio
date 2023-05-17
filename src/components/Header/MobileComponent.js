@@ -54,6 +54,7 @@ export default function MobileComponent() {
             smooth={true}
             offset={eachItem.offset}
             duration={500}
+            key={eachItem.label}
           >
             <MenuItem onClick={handleClose}>{eachItem.label}</MenuItem>
           </Link>

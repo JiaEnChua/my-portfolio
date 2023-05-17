@@ -1,8 +1,9 @@
 import React from 'react';
 import { AwesomeButton } from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
+
+import { HOME } from '../constants';
 import './styles.scss';
-import { HOME } from '../strings';
 
 function DesktopComponent() {
   return (
