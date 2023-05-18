@@ -1,4 +1,4 @@
-.aboutMe {
+.aboutMe, .aboutMeMobile {
   width: 60vw;
   margin: 0 auto;
   padding: 100px 0;
@@ -51,4 +51,12 @@
 .aboutMe__containerRightContainer:hover span {
   margin-top: 10px;
   margin-left: 10px;
+}
+
+.aboutMeMobile__imgContainer {
+  width: 100px;
+}
+
+.aboutMeMobile__imgContainer {
+  margin: 20px 0;
 }

@@ -24,11 +24,14 @@
 .home__containerContact {
   width: fit-content;
   padding: 10px;
-  border: 1px solid rgb(80, 233, 80);
   border-radius: 5px;
 }
 
 .home__containerContact a {
   text-decoration: none;
   color: rgb(80, 233, 80);
+}
+
+.home__containerContact__mobile {
+  margin-top: 10px;
 }
