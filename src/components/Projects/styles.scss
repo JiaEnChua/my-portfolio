@@ -1,0 +1,37 @@
+.projects {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+// -------------- mobile
+.projects-mobile {
+  height: 100vh;
+}
+
+.project_container-mobile {
+  width: 200px;
+}
+
+.project_iframe-mobile {
+  width: 200px;
+  height: 100px;
+}
+
+.project_container {
+  margin-top: 20px;
+}
+
+.projects__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
