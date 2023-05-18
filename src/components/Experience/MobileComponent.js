@@ -19,11 +19,7 @@ SwiperCore.use([Pagination]);
 function MobileComponent() {
   const renderExperience = ({ imgLink, imgAlt, timeline, bulletPoints }) => (
     <div className='experience__description__mobile' key={imgLink}>
-      <img
-        src={imgLink}
-        alt={imgAlt}
-        style={{ borderRadius: 30, width: 250, height: 250, marginTop: 20 }}
-      />
+      <img src={imgLink} alt={imgAlt} className='experience__logo__mobile' />
       <div className='experience__descriptionBottom__mobile'>
         <div className='experience__title__mobile'>
           <h3>Software Engineer</h3>
