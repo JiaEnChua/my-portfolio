@@ -39,7 +39,7 @@ function MobileComponent() {
   return (
     <div className='experience__mobile'>
       <h1>Where I've Worked</h1>
-      <div className='experience__container'>
+      <div className='experience__container__mobile'>
         <Swiper
           spaceBetween={20}
           slidesPerView={1}

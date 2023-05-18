@@ -1,7 +1,8 @@
-import React from "react";
-import "./Project.css";
-import LaunchIcon from "@material-ui/icons/Launch";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import React from 'react';
+import map from 'lodash/map';
+import './Project.css';
+import LaunchIcon from '@material-ui/icons/Launch';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Project({
   youtubeLink,
@@ -15,17 +16,21 @@ function Project({
 }) {
   return (
     <div className={`project ${even}`}>
-      <div className="project__left">
+      <div className='project__left'>
         <iframe
           src={youtubeLink}
-          allowFullScreen="allowfullscreen"
-          title="youtube"
+          allowFullScreen='allowfullscreen'
+          title='youtube'
         ></iframe>
       </div>
-      <div className="project__right">
+      <div className='project__right'>
         <h3 className={`project__rightTitle ${left_or_right}`}>{name}</h3>
-        <p className="project__rightDesc">{desc}</p>
-        {techStack}
+        <p className='project__rightDesc'>{desc}</p>
+        <div className='project__rightTechStack right'>
+          {map(techStack, (eachTech) => (
+            <p>{eachTech}</p>
+          ))}
+        </div>
         <div className={`project__rightBottom ${left_or_right}`}>
           <a href={githubLink}>
             <GitHubIcon />
