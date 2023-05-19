@@ -36,3 +36,12 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+// --------mobile
+.navigation-icon {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    /* Add any other styling properties as needed */
+  }
