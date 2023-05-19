@@ -4,6 +4,7 @@ import map from 'lodash/map';
 import Button from 'react-bootstrap/Button';
 
 import { PAGE_ITEMS } from '../constants';
+import './styles.scss';
 
 function MobileComponent() {
   const [isPanelOpen, setPanelOpen] = useState(false);
@@ -24,16 +25,16 @@ function MobileComponent() {
     <div className='panel'>
       <ul className='panel-items'>
         {map(PAGE_ITEMS, (eachItem) => (
-          <li key={eachItem.label}>
+          <div key={eachItem.label} className='panel-item'>
             <p onClick={() => scrollToSection(eachItem.to)}>{eachItem.label}</p>
-          </li>
+          </div>
         ))}
       </ul>
     </div>
   );
 
   return (
-    <div className='navigation-icon'>
+    <div className='navigation-container'>
       <Button variant='primary' onClick={togglePanel}>
         Navigation
       </Button>
