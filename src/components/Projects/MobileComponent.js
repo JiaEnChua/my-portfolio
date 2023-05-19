@@ -3,9 +3,8 @@ import map from 'lodash/map';
 import HTMLFlipBook from 'react-pageflip';
 import Button from 'react-bootstrap/Button';
 
-import { PROJECTS_DATA } from '../utils';
+import { PROJECTS_DATA } from '../constants';
 import './styles.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MobileComponent() {
   const book = useRef();

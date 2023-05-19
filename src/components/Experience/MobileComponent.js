@@ -2,15 +2,12 @@ import React from 'react';
 import map from 'lodash/map';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination } from 'swiper';
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
-import 'swiper/components/pagination/pagination.min.css';
 
 import {
   CAM2_DESCRIPTION,
   CERNER_DESCRIPTION,
   VISUAL_DESCRIPTION,
-} from '../utils';
+} from '../constants';
 import './styles.scss';
 
 const EXPERIENCES = [CAM2_DESCRIPTION, CERNER_DESCRIPTION, VISUAL_DESCRIPTION];
