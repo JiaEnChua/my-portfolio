@@ -38,3 +38,8 @@
   color: white;
   overflow: auto;
 }
+
+.archive__container__mobile {
+  width: 200px;
+  height: 50vh;
+}

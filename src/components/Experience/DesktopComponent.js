@@ -5,7 +5,7 @@ import {
   CAM2_DESCRIPTION,
   CERNER_DESCRIPTION,
   VISUAL_DESCRIPTION,
-} from '../utils';
+} from '../constants';
 import './styles.scss';
 
 function DesktopComponent() {
