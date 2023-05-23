@@ -19,8 +19,8 @@ function DesktopComponent() {
         </p>
       </div>
       <ul className='experience__descBullet'>
-        {map(bulletPoints, (eachPoint) => (
-          <li>{eachPoint}</li>
+        {map(bulletPoints, (eachPoint, index) => (
+          <li key={index}>{eachPoint}</li>
         ))}
       </ul>
     </div>

@@ -10,12 +10,12 @@ import 'swiper/components/pagination/pagination.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <Helmet>
       <title>Jia's Portfolio</title>
     </Helmet>
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 

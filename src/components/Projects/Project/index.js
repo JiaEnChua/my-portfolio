@@ -28,7 +28,7 @@ function Project({
         <p className='project__rightDesc'>{desc}</p>
         <div className='project__rightTechStack right'>
           {map(techStack, (eachTech) => (
-            <p>{eachTech}</p>
+            <p key={eachTech}>{eachTech}</p>
           ))}
         </div>
         <div className={`project__rightBottom ${left_or_right}`}>
