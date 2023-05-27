@@ -123,3 +123,26 @@ export const PROJECTS_DATA = [
     even: 'even',
   },
 ];
+
+export const HEAD_LIST = [
+  {
+    label: 'Home',
+    linkTo: 'home',
+  },
+  {
+    label: 'About',
+    linkTo: 'about',
+  },
+  {
+    label: 'Experience',
+    linkTo: 'experience',
+  },
+  {
+    label: 'Project',
+    linkTo: 'project',
+  },
+  {
+    label: 'Contact',
+    linkTo: 'footer',
+  },
+];
