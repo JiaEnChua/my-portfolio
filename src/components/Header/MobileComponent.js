@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { scroller } from 'react-scroll';
 import map from 'lodash/map';
-import Button from 'react-bootstrap/Button';
+import { Spin as Hamburger } from 'hamburger-react';
+import { scroller } from 'react-scroll';
 
 import { PAGE_ITEMS } from '../constants';
 import './styles.scss';
@@ -35,9 +35,14 @@ function MobileComponent() {
 
   return (
     <div className='navigation-container'>
-      <Button variant='primary' onClick={togglePanel}>
-        Navigation
-      </Button>
+      <div className='navigation-topBar'>
+        <Hamburger
+          toggled={isPanelOpen}
+          toggle={setPanelOpen}
+          onToggle={togglePanel}
+          size={15}
+        />
+      </div>
       {isPanelOpen && renderPanel()}
     </div>
   );

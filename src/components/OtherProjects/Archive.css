@@ -39,7 +39,12 @@
   overflow: auto;
 }
 
+.archive__container__parent {
+  display: flex;
+  justify-content: center;
+}
+
 .archive__container__mobile {
   width: 200px;
-  height: 50vh;
+  height: 500px;
 }
