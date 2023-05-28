@@ -36,15 +36,20 @@
 // -----------mobile
 .navigation-container {
     position: sticky;
+    height: 40px;
     top: 0;
     z-index: 999;
     background-color: rgb(255, 255, 255);
 }
+
+.navigation-topBar {
+    background-color: lightgray;
+}
   
 .panel {
     position: absolute;
-    top: 0;
-    left: 104px;
+    top: 40px;
+    left: 0px;
     z-index: 1000;
     background-color: rgb(194, 205, 215);
     border-radius: 10px;
@@ -55,5 +60,4 @@
     padding-right: 2em;
     margin-top: 1em;
 }
-  
   

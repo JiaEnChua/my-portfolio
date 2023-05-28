@@ -15,3 +15,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* For Firefox and other browsers */
+body {
+  scrollbar-width: none;
+}

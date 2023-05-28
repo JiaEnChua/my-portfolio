@@ -6,7 +6,7 @@ import './Archive.css';
 
 function Archive({ name, description, mobileSize }) {
   return (
-    <div>
+    <div className='archive__container__parent'>
       <div
         className={`archive__container ${
           mobileSize && 'archive__container__mobile'
